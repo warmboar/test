@@ -1,10 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=San+Francisco&display=swap');
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+
 
 .sq{
 display: inline;
@@ -133,43 +129,81 @@ text-align: justify;
 
 
 }
-.subscribe, .stat {
+.container {
   display: flex;
-  flex-direction: row;
-  }
+  justify-content: center; 
+  align-items: center;
+  width: 50%;
+  margin: 0 auto;
 
-.stat{
-  margin: 0;
-   padding: 0;
-    box-sizing: border-box; 
-display: flex;
-flex-shrink: 0.5;
-border-radius: 10px;
-background-color: rgba(61, 194, 158, 0.83);
-width: 130px;
-height: 35px;
-align-items: center;
-justify-content: center;
-margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+   
+.subscribe {
+  display: flex;
+  align-items: center;
+  background-color: #ff69b4;
+  width: 200px; /* Я добавил это свойство с значением 200px */
+  height: 50px; /* Я добавил это свойство с значением 100px */
+  font-size: 14px; /* Я добавил это свойство с значением 14px */
+  padding: 5px; /* Я изменил это свойство на 5px */
+  border-radius: 15px; /* Я изменил это свойство на 3px */
+  
+ 
+  color: white;
+  transition: background-color 0.5s;
+  margin-right: 260px; /* Я добавил это свойство с значением 10px */
+  transition: all 0.5s;
+}
 
 
 
 
-
-
-transition: background-color;
-object-fit: cover;
-
-
-transition: all 0.5s;
-
-right: 720px;
-top: 415px;
+        .stat {
+          display: flex;
+          align-items: center;
+          background-color: #00bfff;
+          width: 200px; /* Я добавил это свойство с значением 200px */
+            height: 50px; /* Я добавил это свойство с значением 100px */
+            font-size: 14px; /* Я добавил это свойство с значением 14px */
+            padding: 5px; /* Я изменил это свойство на 5px */
+            border-radius: 15px; /* Я изменил это свойство на 3px */
+          color: white;
+          transition: all 0.5s;
+      
 cursor: pointer;
 
 font-weight: bold;
-font-family: 'San Francisco', sans-serif;
+font-family: 'San Francisco', sans-serif;  }
+
+input, button {
+  width: 110px;
+  height: 20px;
+  font-size: 12px;
+  padding: 2px;
+  border-radius: 2px;
+  background-image: linear-gradient(to right, #ff69b4, #00bfff); /* Я добавил это свойство с градиентом */
+  color: white;
+  border: none; /* Я добавил это свойство, чтобы убрать границу */
+  box-shadow: 0 0 5px rgba(0,0,0,0.2); /* Я добавил это свойство с тенью */
+  transition: all 0.5s; /* Я добавил это свойство с переходом */
+
+  
+
 }
+input:hover, button:hover {
+  transform: scale(1.1); /* Я добавил это свойство с преобразованием */
+  form {
+    margin-left: 10px; /* Я добавил это свойство с значением 10px */
+}
+
+
+
+
+
+}
+
 .stat:hover {
    
     
@@ -182,46 +216,24 @@ transform: scale(1.1);
  .numbers{
 color: white;
 
+.white {
+  color: white;
+}
+
+.pink {
+  color: green;
+}
+
+
+h1, h2, p {
+  margin: 0;
+  margin-right: 10px; /* Я добавил это свойство с значением 10px */
 
 }
 
-.doc{
-margin-left:10px;
-color: pink;
-
 }
 
-.med{
-display: flex;
-font-family: 'Montserrat', sans-serif;
-align-items: center;
-justify-content: center;
-font-weight: bold;
-margin: 0 auto;
 
-
-
-}
-
-.subscribe  {
-    display: flex;
-    
-
-    border-radius: 10px;
-    background-color: rgb(28, 147, 210);
-    width: 130px;
-    height: 30px;
-    border: 3px solid rgb(243, 217, 241);
-    align-items: center;
-    justify-content: center;
-    transition: transform 0.3s ease-out;
-    object-fit: cover;
-    margin: 0 auto;
-    
-
-  cursor: pointer;
-
-}
 
 .subscribe:hover {
     transform: scale(1.1);
