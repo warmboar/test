@@ -1,6 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=San+Francisco&display=swap');
 
+@font-face {
+  font-family: "Open Sans";
+  src: url("../fonts/opensans/OpenSans-Regular.eot");
+  src: url("../fonts/opensans/OpenSans-Regular.eot?#iefix") format("embedded-opentype"),
+       url("../fonts/opensans/OpenSans-Regular.woff2") format("woff2"),
+       url("../fonts/opensans/OpenSans-Regular.woff") format("woff"),
+       url("../fonts/opensans/OpenSans-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+
+
 
 .sq{
 display: inline;
@@ -143,15 +156,16 @@ text-align: justify;
 .subscribe {
   display: flex;
   align-items: center;
-  background-color: #ff69b4;
+  background-color: #fff5d7;
   width: 200px; /* Я добавил это свойство с значением 200px */
   height: 50px; /* Я добавил это свойство с значением 100px */
-  font-size: 14px; /* Я добавил это свойство с значением 14px */
+  font-size: 10px; /* Я добавил это свойство с значением 14px */
+  
   padding: 5px; /* Я изменил это свойство на 5px */
   border-radius: 15px; /* Я изменил это свойство на 3px */
-  
+  font-family: "Open Sans";
  
-  color: white;
+  color: hsl(16, 100%, 66%);
   transition: background-color 0.5s;
   margin-right: 260px; /* Я добавил это свойство с значением 10px */
   transition: all 0.5s;
@@ -194,14 +208,15 @@ input, button {
 }
 input:hover, button:hover {
   transform: scale(1.1); /* Я добавил это свойство с преобразованием */
-  form {
-    margin-left: 10px; /* Я добавил это свойство с значением 10px */
+
+
+
+
+
 }
 
-
-
-
-
+form {
+  margin-left: 110px; /* Я добавил это свойство с значением 10px */
 }
 
 .stat:hover {
