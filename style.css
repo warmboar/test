@@ -582,17 +582,3 @@ color: white;
   
  
   
-  article{
-    transform: translate(-60px, 40px);
-  
-  }
-  .item:nth-child(odd){
-    transform: translate(50px, 40px);
-  
-  
-  }
-  .item:nth-child(even) { 
-    transform: translate(285px, 40px);
-  
-  
-  }
