@@ -109,64 +109,7 @@ border-radius: 50px;
 
 }
 
-.soc{
-  display: inline-block;
 
-  background-color: brown;
-  border-radius: 15px;
-text-align: center;
-line-height: 50px;
-vertical-align: middle;
-
-width: 130px;
-
-
-height: 40px;
-top: 690px;
-right: 800px;
-position: absolute;
-transition: all 0.5s;
-
-}
-.soc:hover {
-    transform: scale(1.1);
-}
-.sam{
-
-    display: flex;
-  background-color: yellow;
-  border-radius: 15px;
-align-items: center;
-justify-content: center;
-width: 130px;
-height: 40px;
-top: 690px;
-right: 650px;
-position: absolute;
-transition: all 0.5s;
-
-}
-.sam:hover {
-    transform: scale(1.1);
-}
-
-.psih{
-  display: flex;
-  background-color: white;
-  border-radius: 15px;
-align-items: center;
-justify-content: center;
-width: 130px;
-height: 40px;
-top: 690px;
-right: 500px;
-
-transition: all 0.5s;
-
-}
-.psih:hover{
-    transform: scale(1.1);
-}
 
 .therapy{
 
@@ -183,37 +126,8 @@ position: absolute;
 transition: all 0.5s;
 }
 
-.therapy:hover {
-    transform: scale(1.1);
-}
-
-.inf{
-display: flex;
-position: absolute;
-
-font-family: verdana;
-font-size: 20px;
-right: 980px;
-top: 650px;
-
-}
 
 
-
-.maintext{
-display: flex;
-align-items: center;
-justify-content: center;
-font-weight: bold;
-font-family: 'San Francisco', sans-serif;
-position: absolute;
-top: 470px;
-right: 330px;
-width: 700px;
-text-align: justify;
-
-
-}
 .container {
   display: flex;
   justify-content: center;
